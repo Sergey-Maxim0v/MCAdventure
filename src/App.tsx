@@ -1,14 +1,18 @@
-import React from 'react';
+import {FC} from 'react';
 import {Route, Routes} from "react-router-dom";
 import AuthorizationPage from "./blocks/AuthorizationPage";
 import RegistrationPage from "./blocks/RegistrationPage";
+import MainLayout from "./components/MainLayout";
+import {ROUTES} from "./constants/routes";
 
-function App() {
+const App: FC = () => {
   return (
-      <Routes>
-        <Route path={'/'} element={<AuthorizationPage/>}/>
-        <Route path={'/registration'} element={<RegistrationPage/>}/>
-      </Routes>
+      <MainLayout>
+        <Routes>
+          <Route path={ROUTES.authorisation} element={<AuthorizationPage/>}/>
+          <Route path={ROUTES.registration} element={<RegistrationPage/>}/>
+        </Routes>
+      </MainLayout>
   );
 }
 
