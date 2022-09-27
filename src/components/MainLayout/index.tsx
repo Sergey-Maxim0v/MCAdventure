@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 import classNames from "classnames";
 
 const MainLayout: FC<IMainLayout> = ({children}) => (
-    <div className={'w-screen h-screen flex flex-col'}>
+    <div style={{fontFamily: 'Montserrat'}} className={'w-screen h-screen flex flex-col'}>
       <Navigation/>
 
       <div className={'w-full flex flex-grow items-center justify-center box-border'}>

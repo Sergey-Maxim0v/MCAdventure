@@ -9,7 +9,7 @@ import ErrorPage from "./blocks/ErrorPage";
 
 const App: FC = () => {
   return (
-      <MainLayout>
+      <MainLayout >
         <Routes>
           <Route path={ROUTES.authorisation} element={<AuthorizationPage/>}/>
           <Route path={ROUTES.home} element={<HomePage/>}/>

@@ -22,12 +22,12 @@ const AuthorizationContent: FC<IAuthorizationContent> = ({children}) => (
       </h1>
 
       <p
-          className={'w-4/5 text-center'}
+          className={'w-4/5 text-center font-medium'}
       >
         Сервера с Вампирами, свои разработки (по игре), стабильность, частые обновления, добрая администрация
       </p>
 
-      <div className={'w-full h-[96px] box-border relative flex flex-col'}>
+      <div className={'w-full h-[100px] box-border relative flex flex-col'}>
         {children}
       </div>
     </div>
