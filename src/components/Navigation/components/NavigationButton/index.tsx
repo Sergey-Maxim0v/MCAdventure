@@ -7,8 +7,6 @@ const NavigationButton: FC<INavigationButton> = ({link, isActive}) => {
 
   const url = ROUTES[link]
 
-  console.log(isActive)
-
   return (
       <Link to={url} style={{fontFamily: 'Poppins'}} className={'font-semibold'}>
         {link}
