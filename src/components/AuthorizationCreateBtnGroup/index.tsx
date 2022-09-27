@@ -14,9 +14,9 @@ const AuthorizationCreateBtnGroup: FC<IAuthorizationCreateBtnGroup> = ({setIsAcc
         </p>
         <CustomButton
             width={255}
-        >
-          Создать аккаунт
-        </CustomButton>
+            label={'Создать аккаунт'}
+            onClick={() => setIsAccount(false)}
+        />
       </div>
   );
 }
