@@ -4,7 +4,7 @@ const AuthorizationForm: FC = () => {
 
   return (
       <div
-      className={'h-full w-[48.5%] pt-[56px] pb-[54px] pr-[78px] pl-[74px]'}
+          className={'h-[420px] w-full border'}
       >
         AuthorizationForm
       </div>
