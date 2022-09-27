@@ -2,7 +2,9 @@ import {FC} from "react";
 import LinkVK from "../../../LinkVK";
 
 const AuthorizationFormSoc: FC = () => (
-    <>
+    < div
+        className={'w-full'}
+    >
       <p className={'mb-6 font-sm font-semibold'}>
         Войти через соц.сеть
       </p>
@@ -13,7 +15,7 @@ const AuthorizationFormSoc: FC = () => (
         <LinkVK/>
         <LinkVK/>
       </div>
-    </>
+    </div>
 )
 
 export default AuthorizationFormSoc
