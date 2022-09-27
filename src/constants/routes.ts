@@ -1,6 +1,5 @@
 export const ROUTES: RoutesType = {
   authorisation: '/',
-  registration: '/registration',
   home: '/home',
   account: '/account',
   error: '/404',
@@ -8,7 +7,6 @@ export const ROUTES: RoutesType = {
 
 export type RoutesType = {
   authorisation: '/',
-  registration: '/registration',
   home: '/home',
   account: '/account',
   error: '/404',

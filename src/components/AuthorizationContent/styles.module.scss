@@ -1,0 +1,20 @@
+.row {
+  background-image: url("../../images/bg-authorization.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  background-image: url("../../images/logo-adventure.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  background: linear-gradient(180deg, #7AD94F 0%, #00AD18 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
