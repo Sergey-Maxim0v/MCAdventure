@@ -7,6 +7,9 @@ https://www.figma.com/file/dfT9fu7LiwvkDWsCc6fFMz
 ### React
 ### Tailwind
 
+#### ClassNames
+#### sass
+
 ## Available Scripts
 
 ### `npm start`

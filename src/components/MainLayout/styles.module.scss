@@ -1,0 +1,25 @@
+.mainLayout {
+  &:before {
+    content: '';
+    background-image: url("../../images/mainlayout-left.png");
+    position: absolute;
+    padding-right: 194px;
+    padding-bottom: 236px;
+    left: -150px;
+    bottom: -70px;
+    width: 171.63px;
+    height: 226.07px;
+  }
+
+  &:after{
+    content: '';
+    background-image: url("../../images/mainlayout-right.png");
+    position: absolute;
+    padding-right: 194px;
+    padding-bottom: 236px;
+    right: -150px;
+    top: -110px;
+    width: 186.73px;
+    height: 197px;
+  }
+}
