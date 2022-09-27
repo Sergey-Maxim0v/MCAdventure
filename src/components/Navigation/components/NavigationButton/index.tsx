@@ -5,10 +5,7 @@ import {ROUTES} from "../../../../constants/routes";
 
 const NavigationButton: FC<INavigationButton> = ({link, isActive}) => {
 
-  // TODO:
-  // @ts-ignore
-  const url = ROUTES[link] ?? ROUTES.error
-  console.log(url)
+  const url = ROUTES[link]
 
   return (
       <Link to={url} style={{fontFamily: 'Poppins'}} className={'font-semibold'}>

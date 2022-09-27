@@ -1,5 +1,7 @@
+import {RoutesType} from "../../../../constants/routes";
 
 export interface INavigationButton {
-  link: string,
+  link: keyof RoutesType
   isActive?: boolean
 }
+
