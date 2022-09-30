@@ -9,7 +9,7 @@ const AuthorizationForm: FC = () => {
       <div
           className={'h-[420px] w-full flex flex-col justify-between items-start'}
       >
-        <AuthorizationFormSoc/>
+        <AuthorizationFormSoc message={'Войти через соц.сеть'}/>
 
         <CustomInput label={'Введите логин'}/>
 
