@@ -21,7 +21,9 @@ const AuthorizationForm: FC = () => {
           Забыли логин или пароль?
         </a>
 
-        <CustomButton label={'Войти в аккаунт'} width={318}/>
+        <CustomButton width={318}>
+          Войти в аккаунт
+        </CustomButton>
       </div>
   );
 }

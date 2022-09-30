@@ -20,9 +20,13 @@ const RegistrationForm: FC = () => {
         <div
             className={'w-full h-auto flex justify-between'}
         >
-          <CustomButton label={'Создать аккаунт'} width={251}/>
+          <CustomButton width={251}>
+            Создать аккаунт
+          </CustomButton>
 
-          <CustomButton label={'Q'} width={60}/>
+          <CustomButton width={60}>
+            <div>Q</div>
+          </CustomButton>
 
         </div>
 
