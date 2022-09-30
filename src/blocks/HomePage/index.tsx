@@ -1,5 +1,13 @@
 import {FC} from "react";
+import Navbar from "../../components/Navbar";
 
-const HomePage: FC = () => <div>HomePage</div>
+const HomePage: FC = () => {
+  return (
+      <div>
+        <Navbar/>
+        <div>content</div>
+      </div>
+  );
+}
 
 export default HomePage
