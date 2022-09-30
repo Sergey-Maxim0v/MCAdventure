@@ -1,4 +1,9 @@
 .mainLayout {
+  background-image: url("../../images/bg-main.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
   &:before {
     content: '';
     background-image: url("../../images/mainlayout-left.png");
