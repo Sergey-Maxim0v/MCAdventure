@@ -4,8 +4,11 @@ import CustomInput from "../CustomInput";
 import CustomButton from "../CustomButton";
 import classNames from "classnames";
 import styles from './styles.module.scss'
+import {ROUTES} from "../../constants/routes";
+import {Link} from "react-router-dom";
+import {IRegistrationForm} from "./types";
 
-const RegistrationForm: FC = () => {
+const RegistrationForm: FC <IRegistrationForm>= ({setIsAccount}) => {
 
   return (
       <div
@@ -22,16 +25,17 @@ const RegistrationForm: FC = () => {
         <div
             className={'w-full h-auto flex justify-between'}
         >
-          <CustomButton width={251}>
-            Создать аккаунт
-          </CustomButton>
+          <Link to={ROUTES.home}>
+            <CustomButton width={251}>
+              Создать аккаунт
+            </CustomButton>
+          </Link>
 
-          <CustomButton width={60}>
+          <CustomButton width={60} onClick={()=>setIsAccount(true)}>
             <div
                 className={classNames('w-7 h-7', styles.buttonImg)}
             />
           </CustomButton>
-
         </div>
 
       </div>

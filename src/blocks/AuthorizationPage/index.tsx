@@ -21,7 +21,7 @@ const AuthorizationPage: FC = () => {
         >
           <AuthorizationFormHeader/>
 
-          {isAccount ? <AuthorizationForm/> : <RegistrationForm/>}
+          {isAccount ? <AuthorizationForm/> : <RegistrationForm setIsAccount={setIsAccount}/>}
         </div>
         <AuthorizationContent
             children={isAccount ? <AuthorizationCreateBtnGroup setIsAccount={setIsAccount}/> : undefined}

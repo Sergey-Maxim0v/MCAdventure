@@ -2,6 +2,8 @@ import {FC} from "react";
 import AuthorizationFormSoc from "./components/AuthorizationFormSoc";
 import CustomInput from "../CustomInput";
 import CustomButton from "../CustomButton";
+import {Link} from "react-router-dom";
+import {ROUTES} from "../../constants/routes";
 
 const AuthorizationForm: FC = () => {
 
@@ -20,10 +22,11 @@ const AuthorizationForm: FC = () => {
         >
           Забыли логин или пароль?
         </a>
-
-        <CustomButton width={318}>
-          Войти в аккаунт
-        </CustomButton>
+        <Link to={ROUTES.home}>
+          <CustomButton width={318}>
+            Войти в аккаунт
+          </CustomButton>
+        </Link>
       </div>
   );
 }
