@@ -2,6 +2,8 @@ import {FC} from "react";
 import AuthorizationFormSoc from "../AuthorizationForm/components/AuthorizationFormSoc";
 import CustomInput from "../CustomInput";
 import CustomButton from "../CustomButton";
+import classNames from "classnames";
+import styles from './styles.module.scss'
 
 const RegistrationForm: FC = () => {
 
@@ -25,7 +27,9 @@ const RegistrationForm: FC = () => {
           </CustomButton>
 
           <CustomButton width={60}>
-            <div>Q</div>
+            <div
+                className={classNames('w-7 h-7', styles.buttonImg)}
+            />
           </CustomButton>
 
         </div>
