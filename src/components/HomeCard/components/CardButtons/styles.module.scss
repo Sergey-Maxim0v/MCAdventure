@@ -1,0 +1,29 @@
+.button {
+  background: linear-gradient(180deg, rgba(122, 217, 79, 0.9) 0%, rgba(0, 173, 24, 0.9) 100%);
+}
+
+.active {
+  opacity: 1;
+}
+
+.achievement1 {
+  background-image: url("../../../../images/logo-home-card-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.achievement2 {
+  background-image: url("../../../../images/logo-home-card-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.achievement3 {
+  background-image: url("../../../../images/logo-home-card-3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
