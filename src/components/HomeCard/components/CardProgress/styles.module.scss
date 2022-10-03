@@ -1,0 +1,14 @@
+.logo {
+  background-image: url("../../../../images/logo-user.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.progress {
+  background: linear-gradient(180deg, rgba(122, 217, 79, 0.2) 0%, rgba(0, 173, 24, 0.2) 100%);
+}
+
+.active {
+  background: linear-gradient(180deg, #7AD94F 0%, #00AD18 100%);
+}
