@@ -4,7 +4,8 @@ import classNames from "classnames";
 
 const HomePage: FC = () => {
   return (
-      <div className={classNames('h-[819px]')}>
+       // h-[819px]
+      <div className={classNames('')}>
         <Navbar page={'home'}/>
         <div>content</div>
       </div>

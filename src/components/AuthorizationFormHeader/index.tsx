@@ -8,7 +8,7 @@ const AuthorizationFormHeader: FC = () => (
     >
       <div
           className={classNames('w-[82px] h-[82px]', styles.logo)}
-      ></div>
+      />
 
       <div className={'flex flex-col h-full justify-center pl-6 uppercase'}>
         <p className={'text-2xl font-bold'}>Авторизация</p>
