@@ -12,7 +12,7 @@ const AuthorizationPage: FC = () => {
   const [isAccount, setIsAccount] = useState(true)
 
   return (
-      <div className={'h-full flex justify-between items-stretch'}>
+      <div className={'h-[646px] flex justify-between items-stretch'}>
         <div
             className={classNames(
                 'h-full w-[48.5%] pt-[56px] pb-[54px] pr-[78px] pl-[74px]',

@@ -7,7 +7,7 @@ import {ROUTES} from "../../constants/routes";
 
 const ErrorPage: FC = () => {
   return (
-      <div className={classNames(styles.row, 'w-full h-full flex flex-col justify-around items-center py-32')}>
+      <div className={classNames(styles.row, 'w-full h-[646px] flex flex-col justify-around items-center py-32')}>
         <p className={'text-9xl font-black text-lime-500'}> Error 404 </p>
         <Link to={ROUTES.home}>
           <CustomButton width={220}>На главную</CustomButton>
