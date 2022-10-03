@@ -22,8 +22,7 @@ const HomeCard: FC<IHomeCard> = ({card}) => (
         <CardProgress card={card}/>
       </div>
 
-      <CustomButton width={'full'}> Играть</CustomButton>
-
+      <CustomButton width={'full'}>Играть</CustomButton>
     </div>
 )
 

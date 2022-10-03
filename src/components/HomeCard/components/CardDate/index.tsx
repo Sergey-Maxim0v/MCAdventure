@@ -5,10 +5,10 @@ import styles from './styles.module.scss'
 
 const CardDate: FC<ICardDate> = ({card}) => (
     <div
-        className={classNames('w-full border border-dashed border-lime-700 rounded-sm flex justify-between items-center',styles.title)}
+        className={classNames('w-full rounded-sm flex justify-between items-center',styles.title)}
     >
       <p
-          className={'px-4 font-medium text-[9px]'}
+          className={'px-4 h-full w-full font-medium text-[9px] border-t border-b border-l border-dashed border-lime-700 flex items-center'}
       >
         Последний вайп
       </p>
