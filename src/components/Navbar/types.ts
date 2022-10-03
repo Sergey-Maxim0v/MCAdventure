@@ -1,3 +1,3 @@
 export interface INavbar {
-  page: string
+  page: 'home' | 'account'
 }
