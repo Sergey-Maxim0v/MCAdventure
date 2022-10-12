@@ -14,7 +14,7 @@ const CardDate: FC<ICardDate> = ({card}) => (
       </p>
 
       <p
-          className={classNames('h-8 w-20 rounded-sm text-sm font-semibold flex items-center justify-center', styles.date)}
+          className={classNames('h-8 w-20 px-2 rounded-sm text-sm font-semibold flex items-center justify-center', styles.date)}
       >
         {card.date}
       </p>
