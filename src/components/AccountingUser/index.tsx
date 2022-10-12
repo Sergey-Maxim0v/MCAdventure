@@ -3,9 +3,13 @@ import {FC} from "react";
 const AccountingUser: FC = () => {
   return (
       <div
-          className={'w-full py-32 pl-40 pr-16'}
+          className={'w-full py-16 pl-40 pr-16 flex justify-center items-center'}
       >
-        qwe
+        <div
+            className={''}
+        >
+
+        </div>
       </div>
   )
 }
