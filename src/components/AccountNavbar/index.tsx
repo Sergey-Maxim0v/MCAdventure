@@ -13,7 +13,7 @@ const AccountNavbar: FC<IAccountNavbar> = ({currentBlock, setCurrentBlock}) => {
           className={'flex items-center w-fit h-full'}
       >
         <div
-            className={'w-fit h-48 top-1/2 rounded-xl flex flex-col justify-around items-start '}
+            className={'w-fit h-56 top-1/2 rounded-xl flex flex-col justify-around items-start '}
         >
           {Links.map(el => <AccountingNavbarLink
               key={el}

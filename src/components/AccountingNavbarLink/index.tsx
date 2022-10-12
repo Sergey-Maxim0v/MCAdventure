@@ -1,22 +1,22 @@
 import {FC} from "react";
 import {IAccountingNavbarLink} from "./types";
+
+import CustomButton from "../CustomButton";
 import classNames from "classnames";
-import styles from './styles.module.scss'
 
 const AccountingNavbarLink: FC<IAccountingNavbarLink> = ({isActive, page, setCurrentPage}) => {
 
   return (
-      <button
-          className={classNames(
-              'px-4 py-2 w-full text-center items-center rounded-xl transition-all'
-              ,
-              {[styles.active]: isActive},
-              {[styles.row]: !isActive}
-          )}
-          onClick={() => setCurrentPage(page)}
+      <div
+      className={classNames({'opacity-50':!isActive})}
       >
-        {page}
-      </button>
+        <CustomButton
+            width={150}
+            onClick={() => setCurrentPage(page)}
+        >
+          {page}
+        </CustomButton>
+      </div>
   )
 }
 
