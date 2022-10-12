@@ -1,3 +1,38 @@
 .row {
   background: linear-gradient(180deg, rgba(122, 217, 79, 0.1) 0%, rgba(0, 173, 24, 0.1) 100%);
 }
+
+.pictureHead {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 36px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #7AD94F 0%, #00AD18 100%);
+    box-shadow: 0 4px 13px rgba(72, 199, 56, 0.28);
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 16px;
+    height: 16px;
+    background-size: 100% 100%;
+    background: url("../../images/logo-polygon-right.png") no-repeat 50% 30%;
+    cursor: pointer;
+  }
+}
+
+.skin{
+  background-size: cover;
+  background: url("../../images/bg-skin.png") no-repeat center;
+}
